@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!-- 記載番号：2 -->
+    <title>t.schedule(社内スケジュール管理アプリ)</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body class="p-work">
+    <header id="header" class="header">
+      <div class="header__logo">
+          <h1>
+            <a href="../">
+              <!-- 記載番号：1 -->
+              <span class="header__logo-title">Tomita Kazuki</span>
+              <span class="header__logo-sub">Portfolio</span>
+            </a>
+          </h1>
+        </div>
+        <div class="header__hamburger">
+          <i></i>
+        </div>
+        <nav class="header__gnav">
+          <ul class="header__gnav-list">
+            <li class="header__gnav-item"><a href="../#a-profile">PROFILE</a></li>
+            <li class="header__gnav-item"><a href="../#a-skill">SKILL</a></li>
+            <li class="header__gnav-item"><a href="../#a-works">WORKS</a></li>
+          </ul>
+        </nav>
+    </header>
+    <main>
+      <section class="p-work-firstview">
+        <div class="section-inner">
+          <!-- 記載番号：2（記載番号2は5行目にもあるので気をつけてください） -->
+          <h2>t.schedule(社内スケジュール管理アプリ)</h2>
+          <div class="p-work-firstview__pict obj-fit-img">
+            <!-- images/02に配置した、オリジナルアプリの画像（PC版）のパスを記載する -->
+            <img src="../images/work/02/oriapu.png" class="show-pc">
+            <!-- images/02に配置した、オリジナルアプリの画像（SP版）のパスを記載する -->
+            <img src="../images/work/02/oriapu.png" class="show-sp">
+          </div>
+          <div class="p-work-firstview__text-area">
+            <h3 class="p-work-firstview__text-titile">開発環境</h3>
+            <!-- 記載番号：3 -->
+            <p class="p-work-firstview__text">Ruby / Ruby on Rails / MySQL / GitHub / Render / Visual Studio Code</p>
+            <!-- 記載番号：4 -->
+            <p class="p-work-firstview__text-link"><a href="https://github.com/rangubell/oriapu" target="_blank">https://github.com/rangubell/oriapu</a></p>
+          </div>
+        </div>
+      </section>
+      <section class="p-work-summary">
+        <div class="section-inner">
+          <ul class="p-work-summary__list">
+            <li class="p-work-summary__item">
+              <h3>概要</h3>
+              <table class="p-work-summary__item-table">
+                <tr>
+                  <th>制作時間</th>
+                  <!-- 記載番号：5 -->
+                  <td>100時間</td>
+                </tr>
+                <tr>
+                  <th>URL</th>
+                  <!-- 記載番号：6 -->
+                  <td><a href="https://oriapu-39393.onrender.com" target="_blank">https://oriapu-39393.onrender.com</a></td>
+                </tr>
+                <tr>
+                  <th>ID</th>
+                  <!-- 記載番号：7 -->
+                  <td>bell</td>
+                </tr>
+                <tr>
+                  <th>PASS</th>
+                  <!-- 記載番号：8 -->
+                  <td>0726</td>
+                </tr>
+              </table>
+            </li>
+            <li class="p-work-summary__item">
+              <h3>動作テスト</h3>
+              <h4>テスト用アカウント</h4>
+              <table class="p-work-summary__item-table">
+                <tr>
+                  <th>mail</th>
+                  <!-- 記載番号：9 -->
+                  <td>sample@sample</td>
+                </tr>
+                <tr>
+                  <th>PASS</th>
+                  <!-- 記載番号：10 -->
+                  <td>sample1</td>
+                </tr>
+              </table>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="p-work-outline">
+        <div class="section-inner">
+          <div class="heading">
+            <h2>OUTLINE<span>アプリケーションの概要</span></h2>
+          </div>
+          <div class="contents">
+            <!-- 記載番号：11 -->
+            <div class="p-work-outline__text">
+              <p>
+                オリジナルアプリケーションとして、会社用のスケジュール管理アプリを作成しました。
+                <br>
+                主な機能は、ユーザー登録機能、スケジュール管理機能、部署間のスケジュールの共有、有給休暇管理機能です。
+              </p>
+              <p>
+                ログインすると、ユーザーのマイスケジュールページに遷移します。そこから、予定の作成・有給の申請・部署の予定確認をすることができます。
+              </p>
+              <p>
+                ユーザー登録時に入社日を設定することにより毎月1日に有給付与のスケジュールが自動実行され、入社日から半年後に初回の有給が10日付与され、その後1年ごとに有給が付与されるようになっています｡
+              </p>
+              <p>
+                勤続年数に比例して有給付与日数が11日、12日と増え一回の付与の上限が20日になっています。
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="p-work-about">
+        <div class="section-inner">
+          <ul class="p-work-about__list">
+            <li class="p-work-about__item">
+              <h3>開発に至った経緯</h3>
+              <!-- 記載番号：12 -->
+              <div class="p-work-about__item-block">
+                <p>
+                  前職では社員のスケジュール管理を手書きのホワイトボードに直近の予定を記入する方法で行われており、  
+                </p>
+                <p>
+                  確認や記入などの作業が非常に不便でした。そのため、スケジュール管理アプリケーションを開発することにしました。
+                </p>
+              </div>
+            </li>
+            <li class="p-work-about__item">
+              <h3>開発で工夫したこと</h3>
+              <div class="p-work-about__item-block p-work-about__item-block-2column">
+                <div class="p-work-about__item-block-pict obj-fit-img">
+                  <!-- images/02に配置した、記載内容を表す画像のパスを記載する -->
+                  <img src="../images/work/02/oriapu.png">
+                </div>
+                <!-- 記載番号：13 -->
+                <div class="p-work-about__item-block-text">
+                  <p>
+                    1つ目がロゴ画像の配置とクリックによるマイページへの遷移です。各ページにロゴ画像を配置し、ユーザーがロゴ画像をクリックすることで簡単にマイページに遷移できるようにしました。これにより、ユーザーの操作性とナビゲーションの利便性を向上させました。
+                  </p>
+                  <p>
+                    2つ目はスケジュールページのフッターに予定を大きく表示する欄の追加です。スケジュールページのフッターには、その月の予定を大きく表示する欄を設けました。これにより詳細情報へのアクセスや編集・削除などの操作も容易になっています。
+                  </p>
+                  <p>
+                    3つ目は定期バッジの設定、"clockwork"というgemを導入し、定期的に有給付与のスケジュールを実行するように設定しました。これにより、有給付与を効率化することができます。
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="p-work-about__item">
+              <h3>今後実装したいと思っていること</h3>
+              <div class="p-work-about__item-block p-work-about__item-block-2column">
+                <div class="p-work-about__item-block-pict obj-fit-img">
+                  <!-- images/02に配置した、記載内容を表す画像のパスを記載する -->
+                  <img src="../images/work/02/oriapu.png">
+                </div>
+                <!-- 記載番号：14 -->
+                <div class="p-work-about__item-block-text">
+                  <p>
+                    1つ目が社内全員の予定が確認できるページを設けたいと考えています。実装することにより他の部署の人の予定も効率的に確認でき社内での連携がとりやすくなると考えています。
+                  </p>
+                  <p>
+                    2つ目は有給消滅のロジックの定義です。付与されてから2年経過する有給は自動的に消滅するロジックを定義しようと考えています。合わせて有給消滅日が近い有給の通知なども実装することを検討しています
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="p-work-others">
+        <div class="section-inner">
+          <div class="heading">
+            <h2>OTHERS<span>その他実績</span></h2>
+          </div>
+          <div class="contents">
+            <ul class="p-work-others__list">
+              <li class="p-work-others__item">
+                <div class="p-work-others__item-pict">
+                  <!-- images/01に配置した、FURIMAの画像（PC版）のパスを記載する -->
+                  <a href="01.html" style="background-image:url('../images/work/01/Furima.jpg');"></a>
+                </div>
+                <div class="p-work-others__item-text-block">
+                  <!-- 記載番号：15 -->
+                  <h3>FURIMA（フリマアプリ）</h3>
+                  <!-- 記載番号：16 -->
+                  <p>Ruby / Ruby on Rails / MySQL / GitHub / Render / Visual Studio Code</p>
+                </div>
+                <div class="p-work-others__item-btn-block">
+                  <a href="01.html" class="button">More</a>
+                </div>
+              </li>
+              <li class="p-work-others__item">
+                <div class="p-work-others__item-pict">
+                  <!-- images/02に配置した、オリジナルアプリの画像（PC版）のパスを記載する -->
+                  <a href="02.html" style="background-image:url('../images/work/02/oriapu.png');"></a>
+                </div>
+                <div class="p-work-others__item-text-block">
+                  <!-- 記載番号：17 -->
+                  <h3>t.schedule(社内スケジュール管理アプリ)</h3>
+                  <!-- 記載番号：18 -->
+                  <p>Ruby / Ruby on Rails / MySQL / GitHub / Render / Visual Studio Code</p>
+                </div>
+                <div class="p-work-others__item-btn-block">
+                  <a href="02.html" class="button">More</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- 記載番号：1 -->
+    <footer id="footer" class="footer"><p>&copy; Tomita Kazuki.</p></footer>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/ofi.min.js"></script>
+    <script type="text/javascript" src="../js/script.js"></script>
+  </body>
+</html>
